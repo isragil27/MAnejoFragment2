@@ -1,11 +1,8 @@
 package com.example.isgil27.manejofragment.BaseDatos;
-
 import android.content.ContentValues;
 import android.content.Context;
-
 import com.example.isgil27.manejofragment.Album;
 import com.example.isgil27.manejofragment.R;
-
 import java.util.ArrayList;
 
 /**

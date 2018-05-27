@@ -9,18 +9,16 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.example.isgil27.manejofragment.Adaptador;
 import com.example.isgil27.manejofragment.Album;
 import com.example.isgil27.manejofragment.BaseDatos.GestorAlbums;
 import com.example.isgil27.manejofragment.R;
-
 import java.util.ArrayList;
 
 /**
  * Created by Israel on 02/05/2018.
  */
-
+//HOLlalalalallalalala
 public class Fragment2 extends Fragment {
 
 
@@ -48,7 +46,6 @@ public class Fragment2 extends Fragment {
         }
         else
         {
-
             Cargarlistaalbums();
             InicializarAdaptador();
         }
@@ -73,4 +70,6 @@ public class Fragment2 extends Fragment {
         GestorAlbums gestorAlbums = new GestorAlbums(this.getActivity());
         albums = gestorAlbums.AsignarAlbum();
     }
+
+
 }

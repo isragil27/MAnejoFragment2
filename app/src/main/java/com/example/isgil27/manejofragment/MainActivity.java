@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
        viewPager=findViewById(R.id.miviewpager);
 
 
+
         setUpViewPager();
 
         if(toolbar != null)
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
     private ArrayList<Fragment> AgregarFragments() {
         ArrayList<Fragment> fragments = new ArrayList<>();

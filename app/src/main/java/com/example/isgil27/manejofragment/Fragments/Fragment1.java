@@ -1,5 +1,6 @@
 package com.example.isgil27.manejofragment.Fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -22,6 +23,8 @@ public class Fragment1 extends Fragment
     EditText edtnombreartista;
     EditText edtnombrealbum;
     Button btnañadir;
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -52,10 +55,23 @@ public class Fragment1 extends Fragment
     public View.OnClickListener onAñadirAlbum= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-
             InicializarListaAlbums();
-
         }
     };
+    /*
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        // Aquí nos aseguramos de que en la actividad se haya implementado la interfaz,
+        // si el programador no la implementado se lanza el mensaje de error.
+        try {
+            comunicacion = (Comunicacion) context;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(context.toString() + " Debe implementar la interfaz Actualizar en su Activity");
+        }
+    }*/
+
+
 
 }
